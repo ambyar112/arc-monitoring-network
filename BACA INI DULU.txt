@@ -1,0 +1,69 @@
+================================================
+  ARC NETWORK MONITOR - PANDUAN WINDOWS
+================================================
+
+SEBELUM MULAI - Install 2 software ini dulu:
+----------------------------------------------
+
+1. PYTHON
+   - Buka: https://python.org/downloads
+   - Klik tombol kuning "Download Python"
+   - Jalankan file yang didownload
+   - PENTING: Centang kotak "Add Python to PATH"
+   - Klik Install Now, tunggu selesai
+
+2. NODE.JS  
+   - Buka: https://nodejs.org
+   - Klik tombol "LTS" (yang direkomendasikan)
+   - Jalankan file yang didownload
+   - Klik Next terus sampai Finish
+
+
+CARA INSTALL (hanya sekali):
+----------------------------------------------
+1. Extract/ekstrak file ZIP ini
+2. Buka folder arc-monitor
+3. Klik 2x file: SETUP.bat
+4. Tunggu sampai selesai (5-10 menit, butuh internet)
+5. Kalau muncul pertanyaan mau coba? ketik Y lalu Enter
+
+
+CARA MENJALANKAN APP (setiap hari):
+----------------------------------------------
+1. Buka folder arc-monitor
+2. Klik 2x file: JALANKAN.bat
+3. Tunggu beberapa detik
+4. Browser akan terbuka otomatis
+5. Kalau tidak terbuka, ketik manual di browser:
+   http://localhost:5173
+
+
+CARA MEMATIKAN APP:
+----------------------------------------------
+- Klik 2x file: MATIKAN.bat
+- ATAU tutup semua jendela CMD yang terbuka
+
+
+FILE-FILE PENTING:
+----------------------------------------------
+SETUP.bat    = Jalankan SEKALI untuk install
+JALANKAN.bat = Jalankan SETIAP KALI mau buka app
+MATIKAN.bat  = Untuk mematikan app
+
+
+KALAU ADA ERROR:
+----------------------------------------------
+- Python tidak ditemukan: Ulangi install Python,
+  pastikan centang "Add Python to PATH"
+- Node tidak ditemukan: Ulangi install Node.js
+- Error lain: Screenshot errornya dan tanyakan
+
+
+LINK PENTING:
+----------------------------------------------
+App         : http://localhost:5173
+API Docs    : http://localhost:8000/docs
+Python      : https://python.org/downloads
+Node.js     : https://nodejs.org
+
+================================================
